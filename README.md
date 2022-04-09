@@ -12,10 +12,10 @@
   - [Front-end](#front-end)
     - [CSS](#css)
       - [Libraries](#libraries)
-      - [JS (JavaScript)](#js-javascript)
+      - [(in) JS](#in-js)
       - [Preprocessors](#preprocessors)
       - [UI Components](#ui-components)
-    - [(in) JS](#in-js)
+    - [JS (JavaScript)](#js-javascript)
       - [Web Frameworks](#web-frameworks)
       - [Mobile Frameworks](#mobile-frameworks)
       - [State Management](#state-management)
@@ -114,7 +114,7 @@
 - [Tailwind CSS](https://tailwindcss.com/) - [GitHub](https://github.com/tailwindlabs/tailwindcss)
 - [UIKit](https://getuikit.com/) - [GitHub](https://github.com/uikit/uikit)
 
-#### JS (JavaScript)
+#### (in) JS
 
 - [emotion](https://emotion.sh/)
 - [styled-components](https://styled-components.com/)
@@ -129,7 +129,7 @@
 - [Semantic UI](https://semantic-ui.com/) - [GitHub](https://github.com/Semantic-Org/Semantic-UI)
 - [TailwindUI](https://tailwindui.com/)
 
-### (in) JS
+### JS (JavaScript)
 
 #### Web Frameworks
 
