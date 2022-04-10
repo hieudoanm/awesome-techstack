@@ -2,25 +2,28 @@
 
 - [Techstack](#techstack)
   - [Development](#development)
-    - [Operating System](#operating-system)
+    - [OS (Operating System)](#os-operating-system)
     - [Terminal](#terminal)
+    - [Tunneling](#tunneling)
     - [IDE (Integrated Development Environment)](#ide-integrated-development-environment)
     - [Version Control](#version-control)
-    - [Code Quality](#code-quality)
+    - [Linters and Formatters](#linters-and-formatters)
     - [Testing](#testing)
     - [Bundler](#bundler)
   - [Front-end](#front-end)
     - [CSS](#css)
       - [Libraries](#libraries)
-      - [(in) JS](#in-js)
+      - [(in) JS (JavaScript)](#in-js-javascript)
       - [Preprocessors](#preprocessors)
       - [UI Components](#ui-components)
-    - [JS (JavaScript)](#js-javascript)
+    - [JS](#js)
       - [Web Frameworks](#web-frameworks)
       - [Mobile Frameworks](#mobile-frameworks)
+      - [Desktop Frameworks](#desktop-frameworks)
       - [State Management](#state-management)
   - [Back-end](#back-end)
     - [Frameworks](#frameworks)
+      - [GraphQL](#graphql)
       - [Java](#java)
       - [Node.js](#nodejs)
       - [Python](#python)
@@ -35,8 +38,9 @@
       - [Search Engine](#search-engine)
     - [Message Brokers](#message-brokers)
   - [DevOps (Development and IT Operations)](#devops-development-and-it-operations)
-    - [Operating System](#operating-system-1)
+    - [Operating System](#operating-system)
     - [CI/CD (Continuous Integration and Continuous Delivery)](#cicd-continuous-integration-and-continuous-delivery)
+    - [Code Quality](#code-quality)
     - [IaC (Infrastructure as Code)](#iac-infrastructure-as-code)
       - [Containers](#containers)
       - [Configuration Management](#configuration-management)
@@ -52,15 +56,17 @@
 
 ## Development
 
-### Operating System
+### OS (Operating System)
 
-- [(Apple) MacOS](https://www.apple.com/macos)
-- [Ubuntu](https://ubuntu.com/)
-- [Linux Mint](https://linuxmint.com/)
-- [(Microsoft) Windows](https://www.microsoft.com/en-us/windows/)
-
-- [Arch Linux](https://archlinux.org/)
-- [Kali Linux](https://www.kali.org/)
+- Recommended
+  - [**(Apple) MacOS**](https://www.apple.com/macos)
+  - [**Ubuntu**](https://ubuntu.com/)
+  - [Linux Mint](https://linuxmint.com/)
+- Special
+  - [Arch Linux](https://archlinux.org/)
+  - [Kali Linux](https://www.kali.org/)
+- Popular
+  - [(Microsoft) Windows](https://www.microsoft.com/en-us/windows/)
 
 ### Terminal
 
@@ -70,21 +76,34 @@
   - [auto suggestions](https://github.com/zsh-users/zsh-autosuggestions)
   - [history database](https://github.com/larkery/zsh-histdb)
 
+### Tunneling
+
+- [ngrok](https://ngrok.com/)
+
 ### IDE (Integrated Development Environment)
 
-- [Android Studio](https://developer.android.com/studio/)
-- [Atom](https://atom.io/)
-- [Sublime Text](https://www.sublimetext.com/)
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/)
+- Web
+  - [**Visual Studio Code**](https://code.visualstudio.com/)
+  - [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/)
+- Mobile
+  - [Android Studio](https://developer.android.com/studio/)
+  - [XCode](https://developer.apple.com/xcode/)
+- Text Editor
+  - [Atom](https://atom.io/)
+  - [Sublime Text](https://www.sublimetext.com/)
 
 ### Version Control
 
-- [BitBucket Pipelines](https://bitbucket.org/product/features/pipelines)
-- [GitHub Actions](https://github.com/features/actions)
-- [GitLab CI/CD](https://docs.gitlab.com/ee/ci/)
+- [Git](https://git-scm.com/)
+- Systems
+  - [**GitHub**](https://github.com/)
+    - [Action](https://github.com/features/actions)
+  - [GitLab](https://about.gitlab.com/)
+    - [CI/CD](https://docs.gitlab.com/ee/ci/)
+  - [(Atlassian) BitBucket](https://bitbucket.org/)
+    - [Pipelines](https://bitbucket.org/product/features/pipelines)
 
-### Code Quality
+### Linters and Formatters
 
 - [eslint](https://eslint.org/)
 - [prettier](https://prettier.io/)
@@ -92,6 +111,8 @@
 ### Testing
 
 - [jest](https://jestjs.io/)
+- [cypress](https://www.cypress.io/)
+- [enzyme](https://enzymejs.github.io/enzyme/)
 
 ### Bundler
 
@@ -104,17 +125,17 @@
 
 #### Libraries
 
-- [Bootstrap](https://getbootstrap.com/) - [GitHub](https://github.com/twbs/bootstrap)
+- [**Tailwind CSS**](https://tailwindcss.com/) - [GitHub](https://github.com/tailwindlabs/tailwindcss)
+- [**Bootstrap**](https://getbootstrap.com/) - [GitHub](https://github.com/twbs/bootstrap)
 - [Bulma](https://bulma.io/) - [GitHub](https://github.com/jgthms/bulma)
 - [Foundation](https://get.foundation/) - [GitHub](https://github.com/foundation/foundation-sites)
 - [Materializecss](https://materializecss.com/) - [GitHub](https://github.com/Dogfalo/materialize)
 - [Milligram](https://milligram.io/) - [GitHub](https://github.com/milligram/milligram)
 - [Pure CSS](https://purecss.io/) - [GitHub](https://github.com/pure-css/pure/)
 - [Skeleton](http://getskeleton.com/) - [GitHub](https://github.com/dhg/Skeleton)
-- [Tailwind CSS](https://tailwindcss.com/) - [GitHub](https://github.com/tailwindlabs/tailwindcss)
 - [UIKit](https://getuikit.com/) - [GitHub](https://github.com/uikit/uikit)
 
-#### (in) JS
+#### (in) JS (JavaScript)
 
 - [emotion](https://emotion.sh/)
 - [styled-components](https://styled-components.com/)
@@ -122,31 +143,36 @@
 #### Preprocessors
 
 - [SASS](https://sass-lang.com/)
+- [PostCSS](https://postcss.org/)
 
 #### UI Components
 
-- [MUI](https://mui.com/)
+- [**MUI**](https://mui.com/)
+- [**TailwindUI**](https://tailwindui.com/)
 - [Semantic UI](https://semantic-ui.com/) - [GitHub](https://github.com/Semantic-Org/Semantic-UI)
-- [TailwindUI](https://tailwindui.com/)
 
-### JS (JavaScript)
+### JS
 
 #### Web Frameworks
 
 - Client
-  - [(Facebook) React](https://reactjs.org/)
+  - [**(Facebook) React**](https://reactjs.org/)
   - [(Google) Angular](https://angular.io/)
   - [Svelte](https://svelte.dev/)
   - [Vue.js](https://vuejs.org/)
 - Server
+  - [**Next.js**](https://nextjs.org/)
   - [Gatsby.js](https://www.gatsbyjs.com/)
-  - [Next.js](https://nextjs.org/)
 
 #### Mobile Frameworks
 
-- [(Facebook) React Native](https://reactnative.dev/)
+- [**(Facebook) React Native**](https://reactnative.dev/)
 - [(Google) Flutter](https://flutter.dev/)
 - [Ionic](https://ionicframework.com/)
+
+#### Desktop Frameworks
+
+- [Electron](https://www.electronjs.org/)
 
 #### State Management
 
@@ -158,13 +184,16 @@
 
 ### Frameworks
 
+#### GraphQL
+
+- [apollo-graphql](https://www.apollographql.com/)
+
 #### Java
 
 - [Spring Boot](https://spring.io/projects/spring-boot)
 
 #### [Node.js](https://nodejs.org/en/)
 
-- [apollo-graphql](https://www.apollographql.com/)
 - [express.js](http://expressjs.com/)
 - [nest.js](https://nestjs.com/)
 
@@ -205,6 +234,7 @@
 #### Relational
 
 - [PostgreSQL](https://www.postgresql.org/)
+- [MySQL](https://www.mysql.com/)
 - Node.js
   - [type-orm](https://typeorm.io/#/)
 
@@ -235,6 +265,10 @@
 - [Circle CI](https://circleci.com/)
 - [Jenkins](https://www.jenkins.io/)
 - [Travis CI](https://www.travis-ci.com/)
+
+### Code Quality
+
+- [SonarCloud](https://sonarcloud.io/)
 
 ### IaC (Infrastructure as Code)
 
@@ -284,19 +318,32 @@
 
 - [AWS (Amazon Web Services)](https://aws.amazon.com/)
   - Databases
-    - [(AWS) DocumentDB](https://aws.amazon.com/documentdb/)
-    - [(AWS) ElastiCache](https://aws.amazon.com/elasticache/)
+    - Key - Value
+      - [(AWS) ElastiCache](https://aws.amazon.com/elasticache/)
+      - [(AWS) MemoryDB for Redis](https://aws.amazon.com/memorydb)
+    - Wide Column
+      - [(AWS) Keyspaces (for Apache Cassandra)](https://aws.amazon.com/keyspaces)
+    - Document Oriented
+      - [(AWS) DocumentDB](https://aws.amazon.com/documentdb/)
+      - [(AWS) DynamoDB](https://aws.amazon.com/dynamodb)
+    - Relational
+      - [(AWS) RDS - Relational Database Service](https://aws.amazon.com/rds/)
+      - [(AWS) Aurora](https://aws.amazon.com/rds/aurora/)
     - [(AWS) Neptune](https://aws.amazon.com/neptune/)
     - [(AWS) OpenSearch Service](https://aws.amazon.com/opensearch-service/)
-    - [(AWS) RDS - Relational Database Service](https://aws.amazon.com/rds/)
   - Message Brokers
     - [(AWS) MSK - Managed Streaming for Apache Kafka](https://aws.amazon.com/msk/)
     - [(AWS) MQ](https://aws.amazon.com/amazon-mq)
     - [(AWS) SQS (Simple Queue Service)](https://aws.amazon.com/sqs/)
   - IaC (Infrastructure as Code)
-    - [(AWS) CloudFormation](https://aws.amazon.com/cloudformation/)
-    - [(AWS) ECR - Elastic Container Registry](https://aws.amazon.com/ecr/)
-    - [(AWS) EKS - Elastic Kubernetes Servic](https://aws.amazon.com/eks/)
+    - Containers
+      - [(AWS) ECR - Elastic Container Registry](https://aws.amazon.com/ecr/)
+    - Container Orchestration
+      - [(AWS) ECS - Elastic Container Service](https://aws.amazon.com/ecs/)
+      - [(AWS) EKS - Elastic Kubernetes Service](https://aws.amazon.com/eks/)
+      - [(AWS) Fargate](https://aws.amazon.com/fargate/)
+    - Infrastructure Provisioning
+      - [(AWS) CloudFormation](https://aws.amazon.com/cloudformation/)
   - Server
     - [(AWS) EC2 - Elastic Compute Cloud](https://aws.amazon.com/ec2/)
   - Serverless
