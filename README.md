@@ -16,6 +16,7 @@
       - [(in) JS (JavaScript)](#in-js-javascript)
       - [Preprocessors](#preprocessors)
       - [UI Components](#ui-components)
+      - [UI Documentation](#ui-documentation)
     - [JS](#js)
       - [Web Frameworks](#web-frameworks)
       - [Mobile Frameworks](#mobile-frameworks)
@@ -27,8 +28,8 @@
       - [Java](#java)
       - [Node.js](#nodejs)
       - [Python](#python)
+    - [API Documentation](#api-documentation)
     - [Authentication](#authentication)
-    - [Documentation](#documentation)
     - [Databases](#databases)
       - [Key - Value](#key---value)
       - [Wide Column](#wide-column)
@@ -151,6 +152,10 @@
 - [**TailwindUI**](https://tailwindui.com/)
 - [Semantic UI](https://semantic-ui.com/) - [GitHub](https://github.com/Semantic-Org/Semantic-UI)
 
+#### UI Documentation
+
+- [**Storybook**](https://storybook.js.org/)
+
 ### JS
 
 #### Web Frameworks
@@ -202,17 +207,17 @@
 - [Django](https://www.djangoproject.com/)
 - [Flask](https://flask.palletsprojects.com/)
 
-### Authentication
-
-- [JWT](https://jwt.io/)
-- [OAuth](https://oauth.net/)
-
-### Documentation
+### API Documentation
 
 - [docsify](https://docsify.js.org/)
 - [redocly](https://redocly.com/)
 - [swagger](https://swagger.io/)
 - [tsoa](https://tsoa-community.github.io/docs/)
+
+### Authentication
+
+- [JWT](https://jwt.io/)
+- [OAuth](https://oauth.net/)
 
 ### Databases
 
@@ -356,3 +361,4 @@
 
 - [ethereum](https://ethereum.org/)
 - [hedera](https://hedera.com/)
+- [solana](https://solana.com/)
