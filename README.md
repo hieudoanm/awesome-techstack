@@ -96,6 +96,7 @@
 ### Version Control
 
 - [Git](https://git-scm.com/)
+  - Hooks: [huksy](https://typicode.github.io/husky/#/)
 - Systems
   - [**GitHub**](https://github.com/)
     - [Action](https://github.com/features/actions)
