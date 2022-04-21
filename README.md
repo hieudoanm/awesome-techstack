@@ -17,6 +17,7 @@
       - [Preprocessors](#preprocessors)
       - [UI Components](#ui-components)
       - [UI Documentation](#ui-documentation)
+      - [Micro Frontends](#micro-frontends)
     - [JS](#js)
       - [Web Frameworks](#web-frameworks)
       - [Mobile Frameworks](#mobile-frameworks)
@@ -156,6 +157,11 @@
 #### UI Documentation
 
 - [**Storybook**](https://storybook.js.org/)
+
+#### Micro Frontends
+
+- [Microfrontends](https://microfrontends.com/)
+- [Micro-frontends](https://micro-frontends.org/)
 
 ### JS
 
