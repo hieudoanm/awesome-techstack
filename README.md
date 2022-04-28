@@ -150,9 +150,14 @@
 
 #### UI Components
 
-- [**MUI**](https://mui.com/)
-- [**TailwindUI**](https://tailwindui.com/)
+- [Ant Design](https://ant.design/)
+- [Blueprint](https://blueprintjs.com/)
+- [Chakra UI](https://chakra-ui.com/)
+- [MUI](https://mui.com/)
+- [React Bootstrap](https://react-bootstrap.github.io/)
 - [Semantic UI](https://semantic-ui.com/) - [GitHub](https://github.com/Semantic-Org/Semantic-UI)
+- [TailwindUI](https://tailwindui.com/)
+- [Theme UI](https://theme-ui.com/)
 
 #### UI Documentation
 
