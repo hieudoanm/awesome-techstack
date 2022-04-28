@@ -25,8 +25,8 @@
       - [State Management](#state-management)
   - [Back-end](#back-end)
     - [Frameworks](#frameworks)
-      - [GraphQL](#graphql)
-      - [Java](#java)
+      - [(Facebook) GraphQL](#facebook-graphql)
+      - [(Oracle) Java](#oracle-java)
       - [Node.js](#nodejs)
       - [Python](#python)
     - [API Documentation](#api-documentation)
@@ -61,8 +61,8 @@
 ### OS (Operating System)
 
 - Recommended
-  - [**(Apple) MacOS**](https://www.apple.com/macos)
-  - [**Ubuntu**](https://ubuntu.com/)
+  - [(Apple) MacOS](https://www.apple.com/macos)
+  - [Ubuntu](https://ubuntu.com/)
   - [Linux Mint](https://linuxmint.com/)
 - Special
   - [Arch Linux](https://archlinux.org/)
@@ -85,11 +85,11 @@
 ### IDE (Integrated Development Environment)
 
 - Web
-  - [**Visual Studio Code**](https://code.visualstudio.com/)
-  - [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/)
+  - [(Microsoft) Visual Studio Code](https://code.visualstudio.com/)
+  - [(Microsoft) Visual Studio Community](https://visualstudio.microsoft.com/vs/community/)
 - Mobile
-  - [Android Studio](https://developer.android.com/studio/)
-  - [XCode](https://developer.apple.com/xcode/)
+  - [(Google) Android Studio](https://developer.android.com/studio/)
+  - [(Apple) XCode](https://developer.apple.com/xcode/)
 - Text Editor
   - [Atom](https://atom.io/)
   - [Sublime Text](https://www.sublimetext.com/)
@@ -99,12 +99,12 @@
 - [Git](https://git-scm.com/)
   - Hooks: [huksy](https://typicode.github.io/husky/#/)
 - Systems
-  - [**GitHub**](https://github.com/)
-    - [Action](https://github.com/features/actions)
-  - [GitLab](https://about.gitlab.com/)
-    - [CI/CD](https://docs.gitlab.com/ee/ci/)
   - [(Atlassian) BitBucket](https://bitbucket.org/)
     - [Pipelines](https://bitbucket.org/product/features/pipelines)
+  - [GitLab](https://about.gitlab.com/)
+    - [CI/CD](https://docs.gitlab.com/ee/ci/)
+  - [(Microsoft) GitHub](https://github.com/)
+    - [Action](https://github.com/features/actions)
 
 ### Linters and Formatters
 
@@ -113,9 +113,9 @@
 
 ### Testing
 
-- [jest](https://jestjs.io/)
 - [cypress](https://www.cypress.io/)
 - [enzyme](https://enzymejs.github.io/enzyme/)
+- [jest](https://jestjs.io/)
 
 ### Bundler
 
@@ -128,15 +128,24 @@
 
 #### Libraries
 
-- [**Tailwind CSS**](https://tailwindcss.com/) - [GitHub](https://github.com/tailwindlabs/tailwindcss)
-- [**Bootstrap**](https://getbootstrap.com/) - [GitHub](https://github.com/twbs/bootstrap)
-- [Bulma](https://bulma.io/) - [GitHub](https://github.com/jgthms/bulma)
-- [Foundation](https://get.foundation/) - [GitHub](https://github.com/foundation/foundation-sites)
-- [Materializecss](https://materializecss.com/) - [GitHub](https://github.com/Dogfalo/materialize)
-- [Milligram](https://milligram.io/) - [GitHub](https://github.com/milligram/milligram)
-- [Pure CSS](https://purecss.io/) - [GitHub](https://github.com/pure-css/pure/)
-- [Skeleton](http://getskeleton.com/) - [GitHub](https://github.com/dhg/Skeleton)
-- [UIKit](https://getuikit.com/) - [GitHub](https://github.com/uikit/uikit)
+- [Bootstrap](https://getbootstrap.com/)
+  - [GitHub](https://github.com/twbs/bootstrap)
+- [Bulma](https://bulma.io/)
+  - [GitHub](https://github.com/jgthms/bulma)
+- [Foundation](https://get.foundation/)
+  - [GitHub](https://github.com/foundation/foundation-sites)
+- [Materializecss](https://materializecss.com/)
+  - [GitHub](https://github.com/Dogfalo/materialize)
+- [Milligram](https://milligram.io/)
+  - [GitHub](https://github.com/milligram/milligram)
+- [Pure CSS](https://purecss.io/)
+  - [GitHub](https://github.com/pure-css/pure/)
+- [Skeleton](http://getskeleton.com/)
+  - [GitHub](https://github.com/dhg/Skeleton)
+- [Tailwind CSS](https://tailwindcss.com/)
+  - [GitHub](https://github.com/tailwindlabs/tailwindcss)
+- [UIKit](https://getuikit.com/)
+  - [GitHub](https://github.com/uikit/uikit)
 
 #### (in) JS (JavaScript)
 
@@ -145,8 +154,8 @@
 
 #### Preprocessors
 
-- [SASS](https://sass-lang.com/)
 - [PostCSS](https://postcss.org/)
+- [SASS](https://sass-lang.com/)
 
 #### UI Components
 
@@ -155,13 +164,14 @@
 - [Chakra UI](https://chakra-ui.com/)
 - [MUI](https://mui.com/)
 - [React Bootstrap](https://react-bootstrap.github.io/)
-- [Semantic UI](https://semantic-ui.com/) - [GitHub](https://github.com/Semantic-Org/Semantic-UI)
+- [Semantic UI](https://semantic-ui.com/)
+  - [GitHub](https://github.com/Semantic-Org/Semantic-UI)
 - [TailwindUI](https://tailwindui.com/)
 - [Theme UI](https://theme-ui.com/)
 
 #### UI Documentation
 
-- [**Storybook**](https://storybook.js.org/)
+- [Storybook](https://storybook.js.org/)
 
 #### Micro Frontends
 
@@ -173,17 +183,17 @@
 #### Web Frameworks
 
 - Client
-  - [**(Facebook) React**](https://reactjs.org/)
+  - [(Facebook) React](https://reactjs.org/)
   - [(Google) Angular](https://angular.io/)
   - [Svelte](https://svelte.dev/)
   - [Vue.js](https://vuejs.org/)
 - Server
-  - [**Next.js**](https://nextjs.org/)
+  - [Next.js](https://nextjs.org/)
   - [Gatsby.js](https://www.gatsbyjs.com/)
 
 #### Mobile Frameworks
 
-- [**(Facebook) React Native**](https://reactnative.dev/)
+- [(Facebook) React Native](https://reactnative.dev/)
 - [(Google) Flutter](https://flutter.dev/)
 - [Ionic](https://ionicframework.com/)
 
@@ -201,17 +211,18 @@
 
 ### Frameworks
 
-#### GraphQL
+#### (Facebook) GraphQL
 
-- [apollo-graphql](https://www.apollographql.com/)
+- [Apollo](https://www.apollographql.com/)
 
-#### Java
+#### (Oracle) Java
 
 - [Spring Boot](https://spring.io/projects/spring-boot)
 
 #### [Node.js](https://nodejs.org/en/)
 
 - [express.js](http://expressjs.com/)
+- [hapi](https://hapi.dev/)
 - [nest.js](https://nestjs.com/)
 
 #### Python
