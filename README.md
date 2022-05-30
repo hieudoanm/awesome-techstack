@@ -334,6 +334,10 @@
 
 - Authentication
   - [Auth0](https://auth0.com/)
+- Database
+  - [MongoDB Atlas](https://www.mongodb.com/atlas)
+- Mailing
+  - [Mailchimp](https://mailchimp.com/)
 - Payment
   - [PayPal](https://www.paypal.com/)
   - [Stripe](https://stripe.com/)
