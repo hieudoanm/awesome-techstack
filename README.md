@@ -104,7 +104,7 @@
   - [GitLab](https://about.gitlab.com/)
     - [CI/CD](https://docs.gitlab.com/ee/ci/)
   - [(Microsoft) GitHub](https://github.com/)
-    - [Action](https://github.com/features/actions)
+    - [Actions](https://github.com/features/actions)
 
 ### Linters and Formatters
 
@@ -211,7 +211,7 @@
 
 ### Frameworks
 
-#### (Facebook) GraphQL
+#### [(Facebook) GraphQL](https://graphql.org/)
 
 - [Apollo](https://www.apollographql.com/)
 
@@ -317,6 +317,7 @@
 - [Terraform](https://www.terraform.io/)
   - [AWS](https://learn.hashicorp.com/collections/terraform/aws-get-started)
   - [Docker](https://learn.hashicorp.com/collections/terraform/docker-get-started)
+  - [Heroku](https://learn.hashicorp.com/tutorials/terraform/heroku-provider?in=terraform/applications)
 
 ### Server
 
